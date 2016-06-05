@@ -1,0 +1,33 @@
+{
+  "name": "cromogochi-backend",
+  "version": "1.0.0",
+  "description": "Chromogochi game backend",
+  "main": "src/index.js",
+  "dependencies": {
+    "koa": "^2.0.0"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-async-to-generator": "^6.8.0",
+    "browser-sync": "^2.12.12",
+    "del": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "run-sequence": "^1.2.1"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nai1gun/cromogochi-backend.git"
+  },
+  "keywords": [
+    "chromogochi"
+  ],
+  "author": "nailgun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nai1gun/cromogochi-backend/issues"
+  },
+  "homepage": "https://github.com/nai1gun/cromogochi-backend#readme"
+}
