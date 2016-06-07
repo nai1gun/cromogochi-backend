@@ -1,8 +1,5 @@
-const Koa = require('koa');
-const app = new Koa();
+var rest = require('./rest');
+var cron = require('./cron');
 
-app.use(ctx => {
-  ctx.body = 'Hello World';
-});
-
-app.listen(3001);
+rest.runServer();
+cron.startJobs();

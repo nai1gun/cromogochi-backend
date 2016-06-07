@@ -4,11 +4,12 @@
   "description": "Chromogochi game backend",
   "main": "src/index.js",
   "dependencies": {
+    "cron": "^1.1.0",
+    "firebase": "^3.0.3",
     "koa": "^2.0.0"
   },
   "devDependencies": {
     "babel-plugin-transform-async-to-generator": "^6.8.0",
-    "browser-sync": "^2.12.12",
     "del": "^2.2.0",
     "gulp": "^3.9.1",
     "gulp-babel": "^6.1.2",

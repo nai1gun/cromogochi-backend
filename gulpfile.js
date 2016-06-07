@@ -4,7 +4,7 @@ var runSequence = require('run-sequence');
 var del = require('del');
 
 gulp.task('scripts', function () {
-  return gulp.src('src/*.js')
+  return gulp.src('src/*')
     .pipe(babel())
     .pipe(gulp.dest('dist'));
 });
